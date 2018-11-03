@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,600italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <section class="content-wrapper">
+        <div class="row">
+            <div class="container">
+                <div class="container-content">
+                    <table class="arrows-wrapper">
+                        <tr>
+                            <td></td>
+                            <td><div id="btn-up"><i class="icon-arrow-up"></i></div></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><div id="btn-left"><i class="icon-arrow-left"></i></div></td>
+                            <td><div id="btn-click" class="btn-check icon-check"></div></td>
+                            <td><div id="btn-right"><i class="icon-arrow-right"></i></div></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><div id="btn-down"><i class="icon-arrow-down"></i></div></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!--<div id="output"></div>-->
+    </section>
+
+    <!-- ShareSmartTV -->
+        <script src="../../../../sharesmarttv/config/sharesmarttv-config.js"></script>
+        <script src="http://sharesmart.tv/site/frame/v1/sharesmarttv.js"></script>
+        <script>
+            var url="js/main-control.js";
+            sharesmarttv.openJS(url);
+        </script>
+    <!-- ShareSmartTV -->
+    <script src="js/index-control.js"></script>
+</body>
+</html>
