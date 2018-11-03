@@ -13,3 +13,6 @@ sharesmarttv.receive(
     default:
       yourDefaultFunction();
 )
+
+## Our Website
+http://sharesmart.tv
